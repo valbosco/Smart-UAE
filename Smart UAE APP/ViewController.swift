@@ -1,18 +1,27 @@
 //
 //  ViewController.swift
 //  Smart UAE APP
-//
-//  Created by Nnamdi Ugwuoke on 7/1/19.
-//  Copyright © 2019 Smart UAE. All rights reserved.
-//
+
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageViewAia: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        // A UIImageView with async loading
+        let imageView = UIImageView()
+        imageViewAia.backgroundColor = UIColor.blue
+        
+        // To be reverse
+        
+        imageViewAia.loadGif(name: "nofinal")
+        GifView.loadGif(named: "gifgirlsmall.gif")
         // Do any additional setup after loading the view.
+        
     }
 
 

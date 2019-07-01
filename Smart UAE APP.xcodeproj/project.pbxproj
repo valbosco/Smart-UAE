@@ -13,6 +13,15 @@
 		8DCB00F522CA176C004C2007 /* Smart_UAE_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB00F322CA176C004C2007 /* Smart_UAE_APP.xcdatamodeld */; };
 		8DCB00F722CA176F004C2007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB00F622CA176F004C2007 /* Assets.xcassets */; };
 		8DCB00FA22CA176F004C2007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB00F822CA176F004C2007 /* LaunchScreen.storyboard */; };
+		8DCB010222CA1F54004C2007 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCB010122CA1F54004C2007 /* RestKit.framework */; };
+		8DCB010422CA1F76004C2007 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCB010322CA1F75004C2007 /* TextToSpeechV1.framework */; };
+		8DCB010622CA1F80004C2007 /* AssistantV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCB010522CA1F80004C2007 /* AssistantV1.framework */; };
+		8DCB010822CA1F9C004C2007 /* gifgirsmall.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB010722CA1F9C004C2007 /* gifgirsmall.gif */; };
+		8DCB010A22CA1FA5004C2007 /* JCircularMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB010922CA1FA5004C2007 /* JCircularMenu.swift */; };
+		8DCB011022CA1FB6004C2007 /* SignInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB010C22CA1FB6004C2007 /* SignInVc.swift */; };
+		8DCB011122CA1FB6004C2007 /* RiderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB010D22CA1FB6004C2007 /* RiderVc.swift */; };
+		8DCB011222CA1FB6004C2007 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB010E22CA1FB6004C2007 /* TestViewController.swift */; };
+		8DCB011322CA1FB6004C2007 /* CreateAccountVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB010F22CA1FB6004C2007 /* CreateAccountVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		8DCB00F622CA176F004C2007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DCB00F922CA176F004C2007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DCB00FB22CA176F004C2007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCB010122CA1F54004C2007 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		8DCB010322CA1F75004C2007 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TextToSpeechV1.framework; sourceTree = "<group>"; };
+		8DCB010522CA1F80004C2007 /* AssistantV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AssistantV1.framework; sourceTree = "<group>"; };
+		8DCB010722CA1F9C004C2007 /* gifgirsmall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifgirsmall.gif; sourceTree = "<group>"; };
+		8DCB010922CA1FA5004C2007 /* JCircularMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCircularMenu.swift; sourceTree = "<group>"; };
+		8DCB010C22CA1FB6004C2007 /* SignInVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVc.swift; sourceTree = "<group>"; };
+		8DCB010D22CA1FB6004C2007 /* RiderVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderVc.swift; sourceTree = "<group>"; };
+		8DCB010E22CA1FB6004C2007 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		8DCB010F22CA1FB6004C2007 /* CreateAccountVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCB010622CA1F80004C2007 /* AssistantV1.framework in Frameworks */,
+				8DCB010222CA1F54004C2007 /* RestKit.framework in Frameworks */,
+				8DCB010422CA1F76004C2007 /* TextToSpeechV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,9 @@
 		8DCB00E022CA176C004C2007 = {
 			isa = PBXGroup;
 			children = (
+				8DCB010522CA1F80004C2007 /* AssistantV1.framework */,
+				8DCB010322CA1F75004C2007 /* TextToSpeechV1.framework */,
+				8DCB010122CA1F54004C2007 /* RestKit.framework */,
 				8DCB00EB22CA176C004C2007 /* Smart UAE APP */,
 				8DCB00EA22CA176C004C2007 /* Products */,
 			);
@@ -56,7 +80,10 @@
 		8DCB00EB22CA176C004C2007 /* Smart UAE APP */ = {
 			isa = PBXGroup;
 			children = (
+				8DCB010B22CA1FB6004C2007 /* COntroller */,
+				8DCB010722CA1F9C004C2007 /* gifgirsmall.gif */,
 				8DCB00EC22CA176C004C2007 /* AppDelegate.swift */,
+				8DCB010922CA1FA5004C2007 /* JCircularMenu.swift */,
 				8DCB00EE22CA176C004C2007 /* ViewController.swift */,
 				8DCB00F022CA176C004C2007 /* Main.storyboard */,
 				8DCB00F622CA176F004C2007 /* Assets.xcassets */,
@@ -65,6 +92,17 @@
 				8DCB00F322CA176C004C2007 /* Smart_UAE_APP.xcdatamodeld */,
 			);
 			path = "Smart UAE APP";
+			sourceTree = "<group>";
+		};
+		8DCB010B22CA1FB6004C2007 /* COntroller */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB010C22CA1FB6004C2007 /* SignInVc.swift */,
+				8DCB010D22CA1FB6004C2007 /* RiderVc.swift */,
+				8DCB010E22CA1FB6004C2007 /* TestViewController.swift */,
+				8DCB010F22CA1FB6004C2007 /* CreateAccountVc.swift */,
+			);
+			path = COntroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCB010822CA1F9C004C2007 /* gifgirsmall.gif in Resources */,
 				8DCB00FA22CA176F004C2007 /* LaunchScreen.storyboard in Resources */,
 				8DCB00F722CA176F004C2007 /* Assets.xcassets in Resources */,
 				8DCB00F222CA176C004C2007 /* Main.storyboard in Resources */,
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCB011222CA1FB6004C2007 /* TestViewController.swift in Sources */,
 				8DCB00F522CA176C004C2007 /* Smart_UAE_APP.xcdatamodeld in Sources */,
+				8DCB011322CA1FB6004C2007 /* CreateAccountVc.swift in Sources */,
 				8DCB00EF22CA176C004C2007 /* ViewController.swift in Sources */,
+				8DCB010A22CA1FA5004C2007 /* JCircularMenu.swift in Sources */,
+				8DCB011122CA1FB6004C2007 /* RiderVc.swift in Sources */,
 				8DCB00ED22CA176C004C2007 /* AppDelegate.swift in Sources */,
+				8DCB011022CA1FB6004C2007 /* SignInVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +332,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6U2J2XM8T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Smart UAE APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +354,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6U2J2XM8T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Smart UAE APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
